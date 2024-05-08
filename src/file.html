@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="output.css" />
+    <title>Document</title>
+    <style>
+      * {
+        /* outline: 1px solid #ff0000; */
+      }
+    </style>
+  </head>
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="output.css" />
+      <title>Document</title>
+    </head>
+    <body class="grid place-content-center">
+
+      <div class="content w-[375px] lg:w-[1440px] lg:flex lg:flex-col lg:gap-8 flex flex-col gap-8">
+        <header class="flex flex-row justify-between">
+          <div class="logo">
+            <img src="/src/logo.svg" width="40" height="40" alt="" />
+          </div>
+
+          <ul class="hidden lg:visible lg:flex lg:flex-row lg:gap-4">
+            <a href=""><li class=" font-Inter font-[15px]">Home</li></a>
+            <a href=""><li class="font-Inter font-[15px]">New</li></a>
+            <a href=""><li class="font-Inter font-[15px]">Popular</li></a>
+            <a href=""><li class="font-Inter font-[15px]">Trending</li></a>
+            <a href=""><li class="font-Inter font-[15px]">Categories</li></a>
+          </ul>
+
+          <div class="w-10 relative lg:hidden">
+            <img
+              class="absolute w-[100%] h-[100%]"
+              src="/src/icon-menu.svg"
+              alt=""
+            />
+            <img
+              class="absolute hidden w-[100%] h-[100%]"
+              src="/src/icon-menu-close.svg"
+              alt=""
+            />
+          </div>
+        </header>
+
+        <main class="flex flex-col gap-16 ">
+          
+            <div class="flex flex-col gap-5 lg:flex lg:flex-row lg:gap-8">
+                <div class="flex flex-col gap-5">
+                    <div class="image">
+                        <!-- <img class="lg:hidden visible" src="/src/image-mobile.jpg" alt=""> -->
+                        <img class="" src="/src/image-web-3-desktop.jpg" alt="" />
+                     </div>
+        
+                     <div class="flex flex-col gap-5 lg:flex">
+                        <h1 class=""><b class="text-[2.50rem]">The Bright Future of Web 3.0?</b></h1>
+                        <div class="flex flex-col gap-5 lg:">
+                            <p class="text-opacity-20 font-Inter font-[15px]">
+                            We dive into the next evolution of the web that claims to put
+                            the power of the platforms back into the hands of the people.
+                            But is it really fulfilling its promise
+                            </p>
+                            <button class="text-Offwhite bg-softRed hover:bg-black h-8 w-32">Read More</button>  
+                        </div>
+                     </div>
+                </div>
+    
+    
+                <div class="bg-Verydarkblue p-7 ">
+                    <h1 class="text-softOrange font-bold text-3xl">New</h1>
+                    <h1 class="text-Offwhite hover:text-softOrange font-Inter">Hydrogen VS Electric Cars</h1>
+                    <p class="text-Offwhite text-opacity-50 font-Inter font-[15px]">
+                       Will hydrogen-fueled cars ever catch
+                      up to EVs?
+                    </p>
+    
+                    <hr class="bg-Offwhite gap-5" />
+    
+                    <h1 class="text-Offwhite hover:text-softOrange font-Inter">The Downsides of AI Artistry</h1>
+                    <p class="text-Offwhite  text-opacity-50 font-Inter font-[15px]">
+                      What are the possible adverse effects of on-demand AI image
+                      generation?
+                    </p>
+    
+                    <hr />
+    
+                    <h1 class="text-Offwhite hover:text-softOrange font-Inter">Is VC Funding Drying Up?</h1>
+                    <p class="text-Offwhite  text-opacity-50 font-Inter font-[15px]">
+                      rivate funding by VC firms is down 50% YOY. We take a look at
+                      what that means.
+                    </p>
+                </div>
+            </div>
+
+            <div class="lg:flex lg:flex-row flex flex-col gap-5">    
+                <div class="flex flex-row gap-5 lg:flex lg:flex-row lg:gap-5">
+                    <img src="/src/image-retro.jpg" width="100" alt="" />
+                    <div class="lg:flex-col">
+                      <h1 class="text-3xl font-bold font-Inter text-Grayishblue">01</h1>
+                      <h2 class="font-Inter hover:text-softRed"><b>Revive Retro PCs</b></h2>
+                      <p class=" text-opacity-50 font-Inter font-[15px]">What happens when old PCs are given modern upgrade.</p>
+                    </div>
+                </div>
+    
+                <div class=" flex flex-row gap-5 lg:flex lg:flex-row lg:gap-5">
+                    <img src="/src/image-laptops.jpg" alt="" width="100">
+                    <div>
+                    <h1 class="text-3xl font-bold font-Inter text-Grayishblue">02</h1>
+                    <h2 class="font-Inter hover:text-softRed"><b>Top 10 Laptop of 2022</b></h2>
+                    <p class=" text-opacity-50 font-Inter font-[15px]">our best oicks for variious needs and budgets.</p>
+                    </div>
+                </div>
+    
+                <div class="flex flex-row gap-5 lg:flex lg:flex-row lg:gap-5">
+                    <img src="/src/image-gaming.jpg" alt="" width="100"/>
+                    <div class="">
+                    <h1 class="text-3xl font-bold font-Inter text-Grayishblue">03</h1>
+                    <h2 class="font-Inter hover:text-softRed"><b>The Growth of Gaming</b></h2>
+                    <p class=" text-opacity-50 font-Inter font-[15px]">How the pendamic has sparked fresh opportunities.</p>
+                    </div>
+                </div>
+            </div>
+           
+        </main>
+      </div>
+    </body>
+  </html>
+</html>
